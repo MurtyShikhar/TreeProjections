@@ -43,8 +43,9 @@ To train a probe to recover syntax trees from checkpoints, run:
 # train a probe (a transformer decoder) to recover linearized parse trees from a fixed encoder 
 python syntax_probe.py --model_path /path/to/save/dir/checkpoint_10000.pickle --encoder_depth 6 --data cogs 
 ```
-
 You should observe that the parseval score of decoded parse trees from the probe goes up as the model trains, but quicky saturates.
+
+
 
 ## Citing this work
 If you use tree projections in your work, we kindly ask you to cite our ICLR paper:
