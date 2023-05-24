@@ -1,5 +1,10 @@
 # Tree Projections
 
+<p align="center">
+  <img src="assets/tproj.png" width="550" title="Overview of the Tree Projection method." alt="Overview of the Tree Projection method.">
+</p>
+
+
 This is an implementation of the tree projections method from our ICLR 2023 paper:
 [Characterizing Intrinsic Compositionality in Transformers with Tree Projections](https://openreview.net/pdf?id=sAOOeI878Ns)
 
